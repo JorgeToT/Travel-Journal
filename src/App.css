@@ -91,3 +91,16 @@ header h1 {
   color: #2b283a;
   text-align: justify;
 }
+
+@media (max-width: 800px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card--img {
+    max-width: 300px;
+    width: auto;
+    margin: 0;
+    align-self: center;
+  }
+}
